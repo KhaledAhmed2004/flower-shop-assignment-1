@@ -1,0 +1,92 @@
+/* common styles */
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.tittle-primary {
+  color: #272727;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.description-primary {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.btn-primary {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  padding: 20px 40px;
+  border-radius: 8px;
+  background: #e55473;
+}
+/* header section styles */
+header {
+  background: rgba(229, 84, 115, 0.1);
+  height: 800px;
+  display: flex;
+  justify-content: space-around;
+}
+.header-tittle {
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
+  line-height: normal;
+}
+
+/* main section 1 styles */
+.main-section-1 {
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  justify-content: space-around;
+}
+/* main section 2 styles */
+.box {
+  display: flex;
+  justify-content: space-around;
+}
+.box-item img {
+  width: 310px;
+  height: 350px;
+}
+/* amin section 3 styles */
+.main-section-3 {
+  background-image: url("../flowerasset/Rectangle9.png");
+}
+/* footer section styles */
+footer {
+  background: #111010;
+  text-align: center;
+}
+.tittle-coryright {
+  color: #e55473;
+  font-family: Lato;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: normal;
+}
+.tittle-coryright-white{
+    color: #FFFFFF;
+}
+.description-footer {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.description-copyright {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
