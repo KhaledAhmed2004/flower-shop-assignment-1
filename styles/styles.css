@@ -42,8 +42,8 @@ header article {
 }
 .header-tittle {
   color: #272727;
-  font-size: 80px;
-  font-weight: 750;
+  font-size: 50px;
+  font-weight: 800;
   line-height: normal;
   margin-bottom: 0;
 }
@@ -131,7 +131,32 @@ header p {
   width: 290px;
   height: 320px;
 }
-/* amin section 3 styles */
+/* shop members styles */
+.shop-member{
+  text-align: center;
+}
+.shop-member-box{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 135px;
+  margin-right: 135px;
+}
+.member-box-item{
+  border-radius: 8px;
+  box-shadow: 10px 10px 20px  rgba(0, 0, 0, 0.3);
+}
+.member-img img{
+  height: 100px;
+  border-radius: 30%;
+  align-items: center;
+  margin-top: 30px;
+}
+.member-box-item{
+  background: rgba(5, 151, 160, 0.15);
+  height: 300px;
+  width: 300px;
+}
+/* main section 3 styles */
 .main-section-3 {
   background-image: url("../flowerasset/Rectangle9.png");
   background-repeat: no-repeat;
